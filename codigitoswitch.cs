@@ -28,11 +28,11 @@ namespace tareaproyecto
                     switch (riesgo)
                     {
                      case 1:
-                            ARL = cotizacion * 0.522 / 100;                         
+                            ARL = ( cotizacion * 0.522) / 100;                         
                             Console.WriteLine("su salario mensual seria: " + salariofinal + " y su salario anual seria: " + salarioanual);
                             break;
                         case 2:
-                            ARL = (cotizacion * 0.522) / 100;
+                            ARL = (cotizacion * 1.044) / 100;
                             
                             Console.WriteLine("su salario mensual seria: " + salariofinal + " y su salario anual seria: " + salarioanual);
                             break;
